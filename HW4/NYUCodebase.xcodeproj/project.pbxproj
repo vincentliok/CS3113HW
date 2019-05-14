@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		06350EBB226563E8009E9D9B /* characters_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 06350EBA226563E8009E9D9B /* characters_3.png */; };
-		06350EC122658145009E9D9B /* PlatformerLevel.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 06350EBC22658145009E9D9B /* PlatformerLevel.tmx */; };
 		06350EC222658145009E9D9B /* FlareMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06350EBD22658145009E9D9B /* FlareMap.cpp */; };
 		06350EC322658145009E9D9B /* arne_sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = 06350EBF22658145009E9D9B /* arne_sprites.png */; };
-		06350EC422658145009E9D9B /* arne_sprites.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 06350EC022658145009E9D9B /* arne_sprites.tsx */; };
 		06350EC62265828E009E9D9B /* PlatformerLevel.txt in Resources */ = {isa = PBXBuildFile; fileRef = 06350EC52265828E009E9D9B /* PlatformerLevel.txt */; };
 		6D5A86AE19AE5C710066C1FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5A86AD19AE5C710066C1FD /* Cocoa.framework */; };
 		6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A86B619AE5C710066C1FD /* InfoPlist.strings */; };
@@ -30,11 +28,9 @@
 
 /* Begin PBXFileReference section */
 		06350EBA226563E8009E9D9B /* characters_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = characters_3.png; path = ../../../CS3113/assets/sprite_sheets/characters_3.png; sourceTree = "<group>"; };
-		06350EBC22658145009E9D9B /* PlatformerLevel.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PlatformerLevel.tmx; sourceTree = "<group>"; };
 		06350EBD22658145009E9D9B /* FlareMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlareMap.cpp; sourceTree = "<group>"; };
 		06350EBE22658145009E9D9B /* FlareMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlareMap.h; sourceTree = "<group>"; };
 		06350EBF22658145009E9D9B /* arne_sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arne_sprites.png; sourceTree = "<group>"; };
-		06350EC022658145009E9D9B /* arne_sprites.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = arne_sprites.tsx; sourceTree = "<group>"; };
 		06350EC52265828E009E9D9B /* PlatformerLevel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PlatformerLevel.txt; sourceTree = "<group>"; };
 		6D5A86AA19AE5C710066C1FD /* NYUCodebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYUCodebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5A86AD19AE5C710066C1FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -143,11 +139,9 @@
 				6DEF23C01B96CC2600BCE792 /* vertex.glsl */,
 				6D5A86B919AE5C710066C1FD /* main.cpp */,
 				06350EBF22658145009E9D9B /* arne_sprites.png */,
-				06350EC022658145009E9D9B /* arne_sprites.tsx */,
 				06350EBD22658145009E9D9B /* FlareMap.cpp */,
 				06350EBE22658145009E9D9B /* FlareMap.h */,
 				06350EC52265828E009E9D9B /* PlatformerLevel.txt */,
-				06350EBC22658145009E9D9B /* PlatformerLevel.tmx */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -207,11 +201,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				06350EC322658145009E9D9B /* arne_sprites.png in Resources */,
-				06350EC122658145009E9D9B /* PlatformerLevel.tmx in Resources */,
 				6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */,
 				6DEF23C11B96CC2600BCE792 /* fragment.glsl in Resources */,
 				6DE9D2F11BA6AB8C002D599C /* fragment_textured.glsl in Resources */,
-				06350EC422658145009E9D9B /* arne_sprites.tsx in Resources */,
 				6D5A86C619AE5C710066C1FD /* Images.xcassets in Resources */,
 				6D5A86BE19AE5C710066C1FD /* Credits.rtf in Resources */,
 				06350EBB226563E8009E9D9B /* characters_3.png in Resources */,
